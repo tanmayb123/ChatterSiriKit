@@ -12,7 +12,66 @@
 		115A33351D8CFFDC0016F3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115A33331D8CFFDC0016F3BF /* Main.storyboard */; };
 		115A33371D8CFFDC0016F3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115A33361D8CFFDC0016F3BF /* Assets.xcassets */; };
 		115A333A1D8CFFDC0016F3BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115A33381D8CFFDC0016F3BF /* LaunchScreen.storyboard */; };
+		115A33491D8D001C0016F3BF /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A33481D8D001C0016F3BF /* IntentHandler.swift */; };
+		115A33521D8D001C0016F3BF /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 115A33511D8D001C0016F3BF /* IntentsUI.framework */; };
+		115A33551D8D001D0016F3BF /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A33541D8D001D0016F3BF /* IntentViewController.swift */; };
+		115A33581D8D001D0016F3BF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115A33561D8D001D0016F3BF /* MainInterface.storyboard */; };
+		115A335C1D8D001D0016F3BF /* ChatterIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 115A334F1D8D001C0016F3BF /* ChatterIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		115A335F1D8D001D0016F3BF /* ChatterIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 115A33461D8D001C0016F3BF /* ChatterIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11F970941D8D006C00CDDBFD /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970861D8D006C00CDDBFD /* MMWormhole.m */; };
+		11F970951D8D006C00CDDBFD /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970861D8D006C00CDDBFD /* MMWormhole.m */; };
+		11F970961D8D006C00CDDBFD /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970861D8D006C00CDDBFD /* MMWormhole.m */; };
+		11F970971D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970881D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m */; };
+		11F970981D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970881D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m */; };
+		11F970991D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970881D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m */; };
+		11F9709A1D8D006C00CDDBFD /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708A1D8D006C00CDDBFD /* MMWormholeFileTransiting.m */; };
+		11F9709B1D8D006C00CDDBFD /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708A1D8D006C00CDDBFD /* MMWormholeFileTransiting.m */; };
+		11F9709C1D8D006C00CDDBFD /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708A1D8D006C00CDDBFD /* MMWormholeFileTransiting.m */; };
+		11F9709D1D8D006C00CDDBFD /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708C1D8D006C00CDDBFD /* MMWormholeSession.m */; };
+		11F9709E1D8D006C00CDDBFD /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708C1D8D006C00CDDBFD /* MMWormholeSession.m */; };
+		11F9709F1D8D006C00CDDBFD /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708C1D8D006C00CDDBFD /* MMWormholeSession.m */; };
+		11F970A01D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708E1D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m */; };
+		11F970A11D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708E1D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m */; };
+		11F970A21D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9708E1D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m */; };
+		11F970A31D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970901D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m */; };
+		11F970A41D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970901D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m */; };
+		11F970A51D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970901D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m */; };
+		11F970A61D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970921D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m */; };
+		11F970A71D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970921D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m */; };
+		11F970A81D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F970921D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115A335A1D8D001D0016F3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115A33241D8CFFDC0016F3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115A334E1D8D001C0016F3BF;
+			remoteInfo = ChatterIntentsUI;
+		};
+		115A335D1D8D001D0016F3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115A33241D8CFFDC0016F3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115A33451D8D001C0016F3BF;
+			remoteInfo = ChatterIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		115A33661D8D001D0016F3BF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				115A335F1D8D001D0016F3BF /* ChatterIntents.appex in Embed App Extensions */,
+				115A335C1D8D001D0016F3BF /* ChatterIntentsUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		115A332C1D8CFFDC0016F3BF /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +81,35 @@
 		115A33361D8CFFDC0016F3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		115A33391D8CFFDC0016F3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		115A333B1D8CFFDD0016F3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115A33411D8D000B0016F3BF /* Chatter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chatter.entitlements; sourceTree = "<group>"; };
+		115A33461D8D001C0016F3BF /* ChatterIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChatterIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		115A33481D8D001C0016F3BF /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		115A334A1D8D001C0016F3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115A334F1D8D001C0016F3BF /* ChatterIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChatterIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		115A33511D8D001C0016F3BF /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		115A33541D8D001D0016F3BF /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		115A33571D8D001D0016F3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		115A33591D8D001D0016F3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115A33671D8D00220016F3BF /* ChatterIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatterIntents.entitlements; sourceTree = "<group>"; };
+		115A33681D8D00280016F3BF /* ChatterIntentsUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatterIntentsUI.entitlements; sourceTree = "<group>"; };
+		11F9706C1D8D004F00CDDBFD /* Chatter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chatter-Bridging-Header.h"; sourceTree = "<group>"; };
+		11F970831D8D006B00CDDBFD /* ChatterIntents-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatterIntents-Bridging-Header.h"; sourceTree = "<group>"; };
+		11F970841D8D006B00CDDBFD /* ChatterIntentsUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatterIntentsUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		11F970851D8D006C00CDDBFD /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		11F970861D8D006C00CDDBFD /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		11F970871D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		11F970881D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		11F970891D8D006C00CDDBFD /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		11F9708A1D8D006C00CDDBFD /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		11F9708B1D8D006C00CDDBFD /* MMWormholeSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeSession.h; sourceTree = "<group>"; };
+		11F9708C1D8D006C00CDDBFD /* MMWormholeSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeSession.m; sourceTree = "<group>"; };
+		11F9708D1D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		11F9708E1D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		11F9708F1D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		11F970901D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		11F970911D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		11F970921D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+		11F970931D8D006C00CDDBFD /* MMWormholeTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeTransiting.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +120,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		115A33431D8D001C0016F3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115A334C1D8D001C0016F3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115A33521D8D001C0016F3BF /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				115A332E1D8CFFDC0016F3BF /* Chatter */,
+				115A33471D8D001C0016F3BF /* ChatterIntents */,
+				115A33531D8D001C0016F3BF /* ChatterIntentsUI */,
+				115A33501D8D001C0016F3BF /* Frameworks */,
 				115A332D1D8CFFDC0016F3BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				115A332C1D8CFFDC0016F3BF /* Chatter.app */,
+				115A33461D8D001C0016F3BF /* ChatterIntents.appex */,
+				115A334F1D8D001C0016F3BF /* ChatterIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +162,62 @@
 		115A332E1D8CFFDC0016F3BF /* Chatter */ = {
 			isa = PBXGroup;
 			children = (
+				115A33411D8D000B0016F3BF /* Chatter.entitlements */,
 				115A332F1D8CFFDC0016F3BF /* AppDelegate.swift */,
 				115A33311D8CFFDC0016F3BF /* ViewController.swift */,
+				11F970851D8D006C00CDDBFD /* MMWormhole.h */,
+				11F970861D8D006C00CDDBFD /* MMWormhole.m */,
+				11F970871D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.h */,
+				11F970881D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m */,
+				11F970891D8D006C00CDDBFD /* MMWormholeFileTransiting.h */,
+				11F9708A1D8D006C00CDDBFD /* MMWormholeFileTransiting.m */,
+				11F9708B1D8D006C00CDDBFD /* MMWormholeSession.h */,
+				11F9708C1D8D006C00CDDBFD /* MMWormholeSession.m */,
+				11F9708D1D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.h */,
+				11F9708E1D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m */,
+				11F9708F1D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.h */,
+				11F970901D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m */,
+				11F970911D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.h */,
+				11F970921D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m */,
+				11F970931D8D006C00CDDBFD /* MMWormholeTransiting.h */,
 				115A33331D8CFFDC0016F3BF /* Main.storyboard */,
 				115A33361D8CFFDC0016F3BF /* Assets.xcassets */,
 				115A33381D8CFFDC0016F3BF /* LaunchScreen.storyboard */,
 				115A333B1D8CFFDD0016F3BF /* Info.plist */,
+				11F9706C1D8D004F00CDDBFD /* Chatter-Bridging-Header.h */,
+				11F970831D8D006B00CDDBFD /* ChatterIntents-Bridging-Header.h */,
+				11F970841D8D006B00CDDBFD /* ChatterIntentsUI-Bridging-Header.h */,
 			);
 			path = Chatter;
+			sourceTree = "<group>";
+		};
+		115A33471D8D001C0016F3BF /* ChatterIntents */ = {
+			isa = PBXGroup;
+			children = (
+				115A33671D8D00220016F3BF /* ChatterIntents.entitlements */,
+				115A33481D8D001C0016F3BF /* IntentHandler.swift */,
+				115A334A1D8D001C0016F3BF /* Info.plist */,
+			);
+			path = ChatterIntents;
+			sourceTree = "<group>";
+		};
+		115A33501D8D001C0016F3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				115A33511D8D001C0016F3BF /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		115A33531D8D001C0016F3BF /* ChatterIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				115A33681D8D00280016F3BF /* ChatterIntentsUI.entitlements */,
+				115A33541D8D001D0016F3BF /* IntentViewController.swift */,
+				115A33561D8D001D0016F3BF /* MainInterface.storyboard */,
+				115A33591D8D001D0016F3BF /* Info.plist */,
+			);
+			path = ChatterIntentsUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +230,52 @@
 				115A33281D8CFFDC0016F3BF /* Sources */,
 				115A33291D8CFFDC0016F3BF /* Frameworks */,
 				115A332A1D8CFFDC0016F3BF /* Resources */,
+				115A33661D8D001D0016F3BF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				115A335B1D8D001D0016F3BF /* PBXTargetDependency */,
+				115A335E1D8D001D0016F3BF /* PBXTargetDependency */,
 			);
 			name = Chatter;
 			productName = Chatter;
 			productReference = 115A332C1D8CFFDC0016F3BF /* Chatter.app */;
 			productType = "com.apple.product-type.application";
+		};
+		115A33451D8D001C0016F3BF /* ChatterIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115A33631D8D001D0016F3BF /* Build configuration list for PBXNativeTarget "ChatterIntents" */;
+			buildPhases = (
+				115A33421D8D001C0016F3BF /* Sources */,
+				115A33431D8D001C0016F3BF /* Frameworks */,
+				115A33441D8D001C0016F3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatterIntents;
+			productName = ChatterIntents;
+			productReference = 115A33461D8D001C0016F3BF /* ChatterIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		115A334E1D8D001C0016F3BF /* ChatterIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115A33601D8D001D0016F3BF /* Build configuration list for PBXNativeTarget "ChatterIntentsUI" */;
+			buildPhases = (
+				115A334B1D8D001C0016F3BF /* Sources */,
+				115A334C1D8D001C0016F3BF /* Frameworks */,
+				115A334D1D8D001C0016F3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatterIntentsUI;
+			productName = ChatterIntentsUI;
+			productReference = 115A334F1D8D001C0016F3BF /* ChatterIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,7 +290,38 @@
 					115A332B1D8CFFDC0016F3BF = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 998XWVFVMR;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					115A33451D8D001C0016F3BF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 998XWVFVMR;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					115A334E1D8D001C0016F3BF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 998XWVFVMR;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -115,6 +339,8 @@
 			projectRoot = "";
 			targets = (
 				115A332B1D8CFFDC0016F3BF /* Chatter */,
+				115A33451D8D001C0016F3BF /* ChatterIntents */,
+				115A334E1D8D001C0016F3BF /* ChatterIntentsUI */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +356,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		115A33441D8D001C0016F3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115A334D1D8D001C0016F3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115A33581D8D001D0016F3BF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +378,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F970A01D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m in Sources */,
 				115A33321D8CFFDC0016F3BF /* ViewController.swift in Sources */,
 				115A33301D8CFFDC0016F3BF /* AppDelegate.swift in Sources */,
+				11F970A61D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m in Sources */,
+				11F9709A1D8D006C00CDDBFD /* MMWormholeFileTransiting.m in Sources */,
+				11F970971D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				11F970941D8D006C00CDDBFD /* MMWormhole.m in Sources */,
+				11F970A31D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m in Sources */,
+				11F9709D1D8D006C00CDDBFD /* MMWormholeSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115A33421D8D001C0016F3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F9709E1D8D006C00CDDBFD /* MMWormholeSession.m in Sources */,
+				11F970981D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				11F970A71D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m in Sources */,
+				11F970A11D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m in Sources */,
+				11F970951D8D006C00CDDBFD /* MMWormhole.m in Sources */,
+				115A33491D8D001C0016F3BF /* IntentHandler.swift in Sources */,
+				11F9709B1D8D006C00CDDBFD /* MMWormholeFileTransiting.m in Sources */,
+				11F970A41D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115A334B1D8D001C0016F3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F9709F1D8D006C00CDDBFD /* MMWormholeSession.m in Sources */,
+				11F970991D8D006C00CDDBFD /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				11F970A81D8D006C00CDDBFD /* MMWormholeSessionMessageTransiting.m in Sources */,
+				11F970A21D8D006C00CDDBFD /* MMWormholeSessionContextTransiting.m in Sources */,
+				11F970961D8D006C00CDDBFD /* MMWormhole.m in Sources */,
+				115A33551D8D001D0016F3BF /* IntentViewController.swift in Sources */,
+				11F9709C1D8D006C00CDDBFD /* MMWormholeFileTransiting.m in Sources */,
+				11F970A51D8D006C00CDDBFD /* MMWormholeSessionFileTransiting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115A335B1D8D001D0016F3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115A334E1D8D001C0016F3BF /* ChatterIntentsUI */;
+			targetProxy = 115A335A1D8D001D0016F3BF /* PBXContainerItemProxy */;
+		};
+		115A335E1D8D001D0016F3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115A33451D8D001C0016F3BF /* ChatterIntents */;
+			targetProxy = 115A335D1D8D001D0016F3BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		115A33331D8CFFDC0016F3BF /* Main.storyboard */ = {
@@ -159,6 +450,14 @@
 				115A33391D8CFFDC0016F3BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		115A33561D8D001D0016F3BF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115A33571D8D001D0016F3BF /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,12 +557,17 @@
 		115A333F1D8CFFDD0016F3BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Chatter/Chatter.entitlements;
 				DEVELOPMENT_TEAM = 998XWVFVMR;
 				INFOPLIST_FILE = Chatter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TBSS.Chatter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chatter/Chatter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -271,12 +575,82 @@
 		115A33401D8CFFDD0016F3BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Chatter/Chatter.entitlements;
 				DEVELOPMENT_TEAM = 998XWVFVMR;
 				INFOPLIST_FILE = Chatter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TBSS.Chatter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chatter/Chatter-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		115A33611D8D001D0016F3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ChatterIntentsUI/ChatterIntentsUI.entitlements;
+				DEVELOPMENT_TEAM = 998XWVFVMR;
+				INFOPLIST_FILE = ChatterIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBSS.Chatter.ChatterIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chatter/ChatterIntentsUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		115A33621D8D001D0016F3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ChatterIntentsUI/ChatterIntentsUI.entitlements;
+				DEVELOPMENT_TEAM = 998XWVFVMR;
+				INFOPLIST_FILE = ChatterIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBSS.Chatter.ChatterIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chatter/ChatterIntentsUI-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		115A33641D8D001D0016F3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ChatterIntents/ChatterIntents.entitlements;
+				DEVELOPMENT_TEAM = 998XWVFVMR;
+				INFOPLIST_FILE = ChatterIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBSS.Chatter.ChatterIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chatter/ChatterIntents-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		115A33651D8D001D0016F3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ChatterIntents/ChatterIntents.entitlements;
+				DEVELOPMENT_TEAM = 998XWVFVMR;
+				INFOPLIST_FILE = ChatterIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBSS.Chatter.ChatterIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chatter/ChatterIntents-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +674,25 @@
 				115A33401D8CFFDD0016F3BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115A33601D8D001D0016F3BF /* Build configuration list for PBXNativeTarget "ChatterIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115A33611D8D001D0016F3BF /* Debug */,
+				115A33621D8D001D0016F3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115A33631D8D001D0016F3BF /* Build configuration list for PBXNativeTarget "ChatterIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115A33641D8D001D0016F3BF /* Debug */,
+				115A33651D8D001D0016F3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
